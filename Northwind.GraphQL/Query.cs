@@ -1,7 +1,7 @@
-﻿namespace Northwind.GraphQL;
+﻿using Microsoft.EntityFrameworkCore;
 using Packt.Shared;
-using Microsoft.EntityFrameworkCore;
 
+namespace Northwind.GraphQL;
 public class Query
 {
     public string GetGreeting() => "Hello, World.";
