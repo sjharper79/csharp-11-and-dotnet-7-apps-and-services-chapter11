@@ -75,6 +75,8 @@ public class HomeController : Controller
         return View(model);
     }
 
+
+
     public IActionResult Privacy()
     {
         return View();
